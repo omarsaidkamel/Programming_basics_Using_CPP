@@ -1,0 +1,43 @@
+In C++, comments are lines of text that are ignored by the compiler.
+They are essential for documenting your code, making it easier to understand for yourself and others.
+Here are the two main types of comments in C++ with examples:
+
+1. Single-line comments:
+
+    Use two forward slashes (//) to start a single-line comment.
+    Everything following the // on that line is ignored by the compiler.
+
+Example
+
+#include <iostream>
+using namespace std;
+int main() {
+  // This is a single-line comment explaining the purpose of the next line
+  cout << "Hello, world!";
+  return 0;
+}
+
+
+2- Multi-line comments:
+
+    Use /* and */ to enclose comments that span multiple lines.
+    Anything between these markers is treated as a comment.
+
+
+Example:
+
+#include <iostream>
+
+int main() {
+  /* This is a multi-line comment explaining a more complex code block.
+     It can span multiple lines and improve readability. */
+  std::cout << "This message is printed thanks to the multi-line comment above." << std::endl;
+  return 0;
+}
+
+Benefits of Using Comments:
+
+Improved Code Readability: Comments clarify the purpose of code sections, making them easier to understand for both the author and anyone else reading the code.This is especially important for complex logic or non-obvious code sections.
+    
+Code Maintainability: As code evolves over time, comments help developers understand the original intent and logic behind the code. This facilitates maintenance and future modifications.
+  Collaboration: Clear comments enhance communication within teams working on the same codebase. They help developers understand each other's work and avoid misunderstandings.
