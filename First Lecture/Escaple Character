@@ -1,0 +1,42 @@
+//////////// Escape characters //////////// 
+
+(\n = endl = new line) 
+
+Example
+cout<<"Hello World\nHello World"; 
+// output 
+// Hello World
+// Hello World
+
+
+(\t = (Horizontal Tab): Moves the cursor to the next tab stop on the console.)
+
+Example
+cout << "This\tis\ta\ttabbed\tmessage"; // Tab positions may vary
+// output
+// This	is	a	tabbed	message
+
+
+(\v = (Vertical Tab): Moves the cursor to the next vertical tab stop on the console.)
+
+Example
+cout << "Line1\vLine2\n";             // Vertical tab behavior might differ
+// output
+// Line1
+//      Line2  
+
+
+(\" = (Double Quote): Used to represent a double quote character within a string literal.)
+
+Example
+cout << "\"He said, \"Hello, world!\"\"";  // Prints quoted text
+// output 
+// "He said, "Hello, world!""
+
+
+(\' = (Single Quote): Used to represent a single quote character within a string literal.)
+
+//Example
+cout << "'I can\'t believe it!'\n";      // Prints escaped single quote
+// output
+// I can't believe it!
