@@ -1,0 +1,48 @@
+// The Defult Program in CodeBlock Program
+// Let's describe each line in this code
+#include <iostream>
+using namespace std;
+int main(){
+  cout<<"Hello World!"<<endl;
+  return 0;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+#include <iostream>
+// In C++, the line #include <iostream> is a preprocessor directive that instructs the compiler to include the contents of the header file named <iostream>.
+// This header file is essential for performing input and output operations in your C++ program.
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+using namespace std;
+// This statement instructs the compiler to allow you to use elements from the std namespace without explicitly prefixing them with std::.
+// For example, instead of writing std::cout to print to the console, you can simply use cout.
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+int main(){
+.......
+}
+// This is where you write the core logic of your C++ program.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+cout<<"Hello World!"<<endl;
+
+/*
+1. Printing "Hello World!" to the console:
+
+    cout is the standard output stream object, as explained before.
+    The insertion operator (<<) is used to send data to the output stream.
+    "Hello World!" is the string literal containing the message you want to print.
+
+2. Adding a newline character:
+
+    endl is a manipulator associated with the iostream library.
+*/
+////////////////////////////////////////////////////////////////////////////////////////
+
+return 0;
+
+// In C++, the return value of the main function is typically used as an exit code that conveys the program's execution status.
