@@ -1,0 +1,48 @@
+# Unary Operation
+1. Increment Operator (++)
+The increment operator is used to increase the value of its operand by 1. It works on the numeric operands and be use used as both prefix and postfix to the operand
+
+Syntax:
+++ operand
+or
+operand ++
+
+
+Example:
+
+#include <iostream>   
+using namespace std; 
+  
+int main() { 
+    int x = 5; 
+    // Increment Operator (++) 
+    cout << "Initial value of x: " << x <<" "<< ++x << endl;   // output   5  6
+    
+    int y = 5;
+    cout << "Initial value of y: " << y++ <<" "<< y << endl;   // output   5  6
+    return 0; 
+}
+
+2. Decrement Operator (–)
+The decrement operator is used to decrement the value by 1. Just like the increment operator, it can be used as pre-decrement and post-decrement. It works on numeric values.
+
+Syntax
+
+operand --
+or
+-- operand
+
+Example:
+
+#include <iostream>   
+using namespace std; 
+  
+int main() { 
+    int x = 5; 
+    // Increment Operator (++) 
+    cout << "Initial value of x: " << x-- <<" "<< x << endl;  // output   5  4  
+    
+    int y = 5;
+    cout << "Initial value of y: " << y-- <<" "<< y << endl;   // output   4  4
+    return 0; 
+}
