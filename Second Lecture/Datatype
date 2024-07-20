@@ -1,0 +1,43 @@
+Datatype                    Description                                       size                          Range  
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+int                         Integer value                                      4                  -2,147,483,648 to 2,147,483,647
+bool                        Boolen number                                      1                      true or false ,, 1 or 0
+float                       Floating point number                              4                    -3.4 × 10^38 to 3.4 × 10^38 
+double                      Floating point number (Bigger Range)               8                   -1.7 × 10^308 to 1.7 × 10^308
+char                        Character value                                    1            (0 to 255) Convert to character using ascii code table
+long long int               integer number (Bigger Range)                      8                       -(2^63) to (2^63)-1
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Declaration of variables 
+#include<iostream>
+using namespace std;
+int main(){
+  int i = 34; double d = 5.5; float f = 8.8; char c = 'a';bool b = true; long long int l = 1000000000000000000;
+  cout<<"The integer number(int) : "<<i<<"\n";
+  cout<<"The boolen value(bool) : "<<b<<"\n";
+  cout<<"The floating point number(double) : "<<d<<"\n";
+  cout<<"The floating point number(float) : "<<f<<"\n";
+  cout<<"The character value(char) : "<<c<<"\n";
+  cout<<"The integer number(long long int) : "<<l<<"\n";
+  return 0;
+}
+
+// Declaration of variables && Use to store data from user
+#include<iostream>
+using namespace std;
+int main(){
+  int i; double d; float f; char c; bool b; long long int l;
+  cin>>i;  Take integer number from user
+  cin>>d;  Take Floating point number from user
+  cin>>f;  Take Floating point number from user
+  cin>>c;  Take character value from user
+  cin>>b;  Take boolen value from user
+  cin>>l;  Take integer number from user
+  cout<<"The integer number(int) : "<<i<<"\n";
+  cout<<"The boolen value(bool) : "<<b<<"\n";
+  cout<<"The floating point number(double) : "<<d<<"\n";
+  cout<<"The floating point number(float) : "<<f<<"\n";
+  cout<<"The character value(char) : "<<c<<"\n";
+  cout<<"The integer number(long long int) : "<<l<<"\n";
+  return 0;
+}
