@@ -1,5 +1,6 @@
-1 - variables & Datatype
-2 - Constant &  # define
-3 - using input in the program
-4 - unary operation 
-5 - Arithmetic operators
+Second Lecture Consists of:
+- Variables & Datatype
+- Constant
+- Using input in the program
+- Unary operation 
+- Arithmetic operators
