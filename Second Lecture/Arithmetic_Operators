@@ -1,0 +1,62 @@
+# Arithmetic Operators
+in C++ are used to perform arithmetic or mathematical operations on the operands.
+For example, ‘+’ is used for addition, ‘–‘ is used for subtraction,  ‘*’ is used for multiplication, etc. 
+Arithmetic operators are used to perform arithmetic operations on variables and data; they follow the same relationship between an operator and an operand.
+
+** Example: **
+
+// C++ program to execute all 5 
+// arithmetic function 
+#include <iostream> 
+using namespace std; 
+  
+int main() { 
+    int x = 10, y = 3; 
+    // printing the sum of x and y 
+    cout<< "x + y= " << (x + y) << endl; 
+  
+    // printing the difference of x and y 
+    cout << "x - y = " << (x - y) << endl; 
+  
+    // printing the product of x and y 
+    cout << "x * y = " << (x * y) << endl; 
+  
+    // printing the division of x by y 
+    cout << "x / y = " << (x / y) << endl; 
+  
+    // printing the modulo of x by y 
+    cout << "x % y = " << (x % y) << endl; 
+  
+    return 0; 
+}
+
+** Very important rules about (%) **
+
+First:
+
+if   K >= N  then    K % N = {0 , N-1}  
+The Remender will never reach to N
+
+Example:
+ 16 % 4 = 0
+ 15 % 4 = 3
+ 14 % 4 = 2
+ 13 % 4 = 1
+ 12 % 4 = 0
+ 11 % 4 = 3
+ 10 % 4 = 2
+ 9 % 4 = 1
+ 8 % 4 = 0
+
+
+Second:
+if   K < N  then    K % N = K
+
+Example:
+ 9 % 10 = 9
+ 8 % 4 = 8
+ 7 % 4 = 7
+ 6 % 4 = 6
+ 5 % 4 = 5
+ 
+
