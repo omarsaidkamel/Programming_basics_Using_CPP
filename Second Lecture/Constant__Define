@@ -1,0 +1,64 @@
+#How to Define Constants in C++?
+#We can define the constants in C++ using three ways:
+
+- Using const Keyword
+- Using #define Preprocessor
+
+
+**First:  Constant using const Keyword**
+Defining constants using const keyword is one of the older methods that C++ inherited from C language. In this method, we add the const keyword in the variable definition as shown below:
+
+Syntax for const Keyword
+const DATATYPE variable_name = value;
+
+Example:
+#include <iostream> 
+using namespace std; 
+  
+int main() { 
+    // declaring a variable 
+    int var = 10; 
+  
+    // declaring a constant variable 
+    const int cons = 24; 
+  
+    cout << "Initial Value:" << endl; 
+    cout << "var: " << var << endl; 
+    cout << "cons: " << cons << endl; 
+  
+    // changing the value of both the constants 
+    var = 24; 
+    cons = 0; 
+  
+    cout << "Final Value:" << endl; 
+    cout << "var: " << var << endl; 
+    cout << "cons: " << cons << endl; 
+  
+    return 0; 
+}
+
+**Second: Constants using #define Preprocessor**
+We can also define constants using the #define.
+Constants created using the #define preprocessor are called “macro constants”.
+Unlike the other methods, constants defined using this method simply work as an alias for their value which is substituted during preprocessing.
+
+Example:
+
+// C++ Program to illustrate the use of #define to create a 
+// constant 
+#include <iostream> 
+using namespace std; 
+  
+// using #define to create a macro 
+#define Side 5 
+  
+int main() 
+{ 
+    // using constant 
+    const double area = Side * Side; 
+  
+    cout << "The area of square with side 5 is "; 
+    cout << area; 
+  
+    return 0; 
+}
