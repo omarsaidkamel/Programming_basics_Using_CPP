@@ -1,6 +1,15 @@
 # Programming_basics_Using_CPP
 Title:  C++ Basics: A Hands-on Guide (or similar, reflecting your preferred title)
 
+YouTube Channel:
+https://www.youtube.com/channel/UCVKVdVHIzB9euNJ-vriRVNA
+
+Sheet Link:
+(https://docs.google.com/spreadsheets/d/18cBOSD1qpb12gzAHOiFzQ4aVeLeG4ZdwGdGLWwmTfHc/edit?usp=sharing)
+
+Codeforces Link:
+https://codeforces.com/group/RY7FuqPTdi/contests
+
 Description:
 
 This repository provides a comprehensive collection of C++ code examples designed to solidify your understanding of fundamental programming concepts. Whether you're a complete beginner or seeking to refresh your knowledge, these well-commented programs will guide you through the building blocks of C++.
