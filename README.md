@@ -2,12 +2,16 @@
 Title:  C++ Basics: A Hands-on Guide (or similar, reflecting your preferred title)
 
 YouTube Channel:
-https://www.youtube.com/channel/UCVKVdVHIzB9euNJ-vriRVNA
+
+https://www.youtube.com/watch?v=6xo8qQTxgPQ&list=PLjsH1w0IVlw9iqJmfu0lMX8Jz6kOsf-n3
+
 
 Sheet Link:
-(https://docs.google.com/spreadsheets/d/18cBOSD1qpb12gzAHOiFzQ4aVeLeG4ZdwGdGLWwmTfHc/edit?usp=sharing)
+
+https://docs.google.com/spreadsheets/d/18cBOSD1qpb12gzAHOiFzQ4aVeLeG4ZdwGdGLWwmTfHc/edit?usp=sharing
 
 Codeforces Link:
+
 https://codeforces.com/group/RY7FuqPTdi/contests
 
 Description:
