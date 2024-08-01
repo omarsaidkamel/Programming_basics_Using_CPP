@@ -1,0 +1,84 @@
+## Bitwise Operators ##
+These operators are used to perform bit-level operations on the operands.
+The operators are first converted to bit-level and then the calculation is performed on the operands.
+Mathematical operations such as addition, subtraction, multiplication, etc. can be performed at the bit level for faster processing. 
+
+########################################################################################################################################################
+Binary AND	&	Copies a bit to the evaluated result if it exists in both operands	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int x = 7 , y = 2;
+  cout<< (x&y); // Output: 2
+  return 0;
+}
+
+########################################################################################################################################################
+Binary OR	|	Copies a bit to the evaluated result if it exists in any of the operand	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int x = 7 , y = 2;
+  cout<< (x|y); // Output: 7
+  return 0;
+}
+
+########################################################################################################################################################
+Binary XOR	^	Copies the bit to the evaluated result if it is present in either of the operands but not both	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int x = 7 , y = 2;
+  cout<< (x^y); // Output: 5
+  return 0;
+}
+
+########################################################################################################################################################
+
+Left Shift	<<	Shifts the value to left by the number of bits specified by the right operand.	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int x = 2 , y = 1;
+  cout<< (x<<y); // Output: 4
+  return 0;
+}
+
+########################################################################################################################################################
+
+Right Shift	>>	Shifts the value to right by the number of bits specified by the right operand.	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int x = 2 , y = 1;
+  cout<< (x>>y); // Output: 1
+  return 0;
+}
+
+########################################################################################################################################################
+One’s Complement	~	Changes binary digits 1 to 0 and 0 to 1	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int x = 2;
+  cout<< (~x); // Output: -3
+  return 0;
+}
