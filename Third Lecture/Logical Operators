@@ -1,0 +1,59 @@
+## Logical Operators ##
+These operators are used to combine two or more conditions or constraints or to complement the evaluation of the original condition in consideration.
+The result returns a Boolean value, i.e., true or false.
+
+##################################################################################################################################################################
+
+Logical AND	&&	Returns true only if all the operands are true (All real numbers Except zero) or non-zero	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int a = 1, b = 0;
+  cout<< (a && b); //output : 0
+  a = 1, b = 1;
+  cout<< (a && b); //output : 1
+  a = 0, b = 0;
+  cout<< (a && b); //output : 0
+  a = 0, b = 1;
+  cout<< (a && b); //output : 0
+  return 0;
+}
+
+##################################################################################################################################################################
+
+Logical OR	||	Returns true if either of the operands is true or non-zero	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int a = 1, b = 0;
+  cout<< (a && b); //output : 0
+  a = 1, b = 1;
+  cout<< (a && b); //output : 1
+  a = 0, b = 0;
+  cout<< (a && b); //output : 0
+  a = 0, b = 1;
+  cout<< (a && b); //output : 0
+  return 0;
+}
+
+##################################################################################################################################################################
+
+Logical NOT	!	Returns true if the operand is false or zero	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int a = 0;
+  cout<< (!a); //output : 1
+  a = 1;
+  cout<< (!a); //output : 0
+  return 0;
+}
