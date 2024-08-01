@@ -1,0 +1,32 @@
+## Priority in Arithmetic Operators ##
+
+1- { () }
+2- { * , / , % }
+3- {+ , -}
+
+The operation is arranged from the higher to the lower Priority.
+
+Hint: If there are two operations has the same priority applies from left to right
+
+Example 1:
+
+#include <iostream>
+using namespace std;
+int main(){
+  cout<< (4+5) * 3 + 10 / 5 ; // Output : 29
+  return 0;
+}
+
+This Example show apply: () ->  * -> / -> +
+
+Example 2:
+
+#include <iostream>
+using namespace std;
+int main(){
+  cout<< 9 / 4 * 6 ; // Output : 12
+  cout<< 9 * 4 / 6 ; // Output : 6
+  return 0;
+}
+
+Apply operation from left to right 
