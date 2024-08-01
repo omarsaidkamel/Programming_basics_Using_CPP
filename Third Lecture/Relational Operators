@@ -1,0 +1,88 @@
+## Relational Operators ##
+These operators are used for the comparison of the values of two operands.
+For example, ‘>’ checks if one operand is greater than the other operand or not, etc.
+The result returns a Boolean value, i.e., {true or 1} or {false or 0}.
+
+#########################################################################################################################################
+
+Is Equal To	(==)	
+Checks if both operands are equal	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int a = 3, b = 6;
+  cout<< (a==b);  // output: 0
+  return 0;
+}
+
+#########################################################################################################################################
+
+Greater Than	>	Checks if first operand is greater than the second operand	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int a = 3, b = 6;
+  cout<< (a > b);  // output: 0
+  return 0;
+}
+
+#########################################################################################################################################
+
+Greater Than or Equal To	>=	Checks if first operand is greater than or equal to the second operand	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int a = 3, b = 6;
+  cout<< (a >= b);  // output: 0
+  return 0;
+}
+
+#########################################################################################################################################
+
+Less Than	<	Checks if first operand is lesser than the second operand	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int a = 3, b = 6;
+  cout<< (a < b);  // output: 1
+  return 0;
+}
+
+#########################################################################################################################################
+
+Less Than or Equal To	<=	Checks if first operand is lesser than or equal to the second operand	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int a = 3, b = 6;
+  cout<< (a <= b);  // output: 1
+  return 0;
+}
+#########################################################################################################################################
+
+Not Equal To	!=	Checks if both operands are not equal	
+
+Example:
+
+#include <iostream>
+using namespace std;
+int main(){
+  int a = 3, b = 6;
+  cout<< (a != b);  // output: 1
+  return 0;
+}
