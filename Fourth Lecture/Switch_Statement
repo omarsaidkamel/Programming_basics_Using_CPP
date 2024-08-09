@@ -1,0 +1,48 @@
+Switch Statement in C++
+The C++ Switch case statement evaluates a given expression and based on the evaluated value(matching a certain condition), it executes the statements associated with it.
+It is an alternative to the long if-else-if ladder which provides an easy way to dispatch execution to different parts of code based on the value of the expression.
+
+Syntax of switch Statement in C++
+switch (expression) {
+    case value_1:
+        // statements_1;
+        break;
+    case value_2:
+        // statements_2;
+        break;
+    .....
+    .....
+    default:
+        // default_statements;
+        break;
+}
+
+Example: C Program to demonstrate the syntax of switch in C++
+
+// C++ program to demonstrate syntax of switch
+#include <iostream>
+using namespace std;
+
+// Driver Code
+int main()
+{
+    // switch variable
+    char x = 'A';
+
+    // switch statements
+    switch (x) {
+    case 'A':
+        cout << "Choice is A";
+        break;
+    case 'B':
+        cout << "Choice is B";
+        break;
+    case 'C':
+        cout << "Choice is C";
+        break;
+    default:
+        cout << "Choice other than A, B and C";
+        break;
+    }
+    return 0;
+}
