@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x;
+    cin>>x;
+    x/=1000;
+   /* if(false){
+    cout<<"ODD";
+    }
+    else {
+      cout<<"EVEN";
+    }*/
+  /*  8 4 2 1
+ 
+    0 0 0 1
+&
+    1 0 1 0   10   = 0
+    1 0 0 0   8
+    1 1 1 0   14
+ 
+    0 0 0 1
+&
+    0 1 1 1   7   = 1
+    0 1 0 1   5
+    1 0 1 1   11*/
+    cout<<((x&1)?"ODD":"EVEN");
+    /*if(x%2==0)cout<<"EVEN";
+    else cout<<"ODD";
+    cout<<((x%2==0)?"EVEN":"ODD");*/
+    return 0;
+}
