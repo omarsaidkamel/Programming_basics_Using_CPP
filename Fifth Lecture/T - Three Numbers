@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int k,s,c=0;
+    cin>>k>>s;
+    for(int x=0;x<=k;x++){  //3000
+        for(int y=0;y<=k;y++){ //3000
+            int r = s -(x+y);
+            
+            if(r>=0&&r<=k)c++;
+            /*for(int z=0;z<=k;z++){ //3000
+                if(x+y+z==s)c++;
+            }*/
+            
+           // s = x + y + z
+            //s - (x+y) = z
+        }
+    }
+    cout<<c;
+    return 0;
+}
