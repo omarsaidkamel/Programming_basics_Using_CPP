@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int n;char c,d;
+    cin>>c>>n>>d;
+    if(c>='A' && c<='Z'){
+        int t;
+        if(d == 'R'){
+            t = ((c-'A')+n)%26;
+        }
+        else {
+            t = (((c-'A')-n)+26)%26;
+        }
+        cout<< (char)(t+'a');
+    }
+    if(c>='a' && c<='z'){
+        int t;
+        if(d == 'R'){
+            t = ((c-'a')+n)%26;
+        }
+        else {
+            t = (((c-'a')-n)+26)%26;
+        }
+        cout<< (char)(t+'A');
+    }
+    return 0;
+}
