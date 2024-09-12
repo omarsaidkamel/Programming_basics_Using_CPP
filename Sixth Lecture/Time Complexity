@@ -1,0 +1,78 @@
+#include <iostream>
+using namespace std;
+int main() {
+    /*
+    wrong answer    3 => 4  - 5
+    runtime error   int  = 10^9 * 10^9 , 5 / 0 ,  A[5]  => A[9], A[-1]
+    compilation error    wrong in code
+    memory limit   int x,y  => 4 byt   , int , A[100000]
+    time limit
+
+
+        #include <iostream>
+    using namespace std;
+    int main(){
+        int k,s,c=0;
+        cin>>k>>s;
+        O(K^2)
+        for(int x=0;x<=k;x++){ 3000
+            for(int y=0;y<=k;y++){ 3000
+                for(int z=0;z<=k;z++){ 3000
+                    if(x+z+y==s){
+                    c++;
+                    }
+                }
+            }
+        }
+        cout<<c;
+        x + y + z = s
+        */
+        return 0;
+    }
+/*
+     // O(Log n)
+    //      2
+    for(int i=1;i<=n;i*=2){
+        for(int i=1;i<=n;i*=2){
+            cout<<'a';
+        }
+    }
+
+    // O(Log n)
+   //       5
+    for(int i=1;i<=n;i*=5){
+        cout<<'a';
+    }
+
+    // O( N*N = N^2)
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            cout<<"a";
+        }
+    }
+
+    // O(N*N*N = N^3)
+    for(int k=1;k<=n;k++){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+            cout<<"a";
+           }
+        }
+    }
+
+
+    // 1 -> n      O(N)
+    int n,sum=0;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        sum+=i;
+    }
+    //   O(1)
+    cout<<(n*(n+1))/2;*/
+/*
+O(N): Can handle N = 10^8 in 1 second.
+O(N * logN): Can handle N = 10^7 to 10^8 in 1 second.
+O(N ^ 2): Can handle N = 10^4 to 10^5 in 1 second.
+O(N ^ 3): Can handle N = 500 to 1000 in 1 second.
+
+*/
