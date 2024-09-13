@@ -1,0 +1,48 @@
+// data_type array_name[Size_of_array];
+//int arr[5];
+/*
+We have initialized the array with values. The values enclosed in curly braces ‘{}’ are assigned to the array. Here, 1 is stored in arr[0], 2 in arr[1], and so on. Here the size of the array is 5.
+
+int arr[5] = {1, 2, 3, 4, 5};
+
+We have initialized the array with values but we have not declared the length of the array, therefore, the length of an array is equal to the number of elements inside curly braces.
+
+int arr[] = {1, 2, 3, 4, 5};
+
+
+We have initialized the array using a loop after declaring the array. This method is generally used when we want to take input from the user or we cant to assign elements one by one to each index of the array. We can modify the loop conditions or change the initialization values according to requirements.
+
+for (int i = 0; i < N; i++) {
+    arr[i] = value;
+}
+*/
+
+//  C++ Program to Illustrate How to Access Array Elements
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    int arr[3];
+
+    // Inserting elements in an array
+    arr[0] = 10;
+    arr[1] = 20;
+    arr[2] = 30;
+
+    // Accessing and printing elements of the array
+    cout << "arr[0]: " << arr[0] << endl;
+    cout << "arr[1]: " << arr[1] << endl;
+    cout << "arr[2]: " << arr[2] << endl;
+
+    return 0;
+}
+
+/*
+arr[0]: 10
+arr[1]: 20
+arr[2]: 30
+
+
+*/
