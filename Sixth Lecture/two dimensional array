@@ -1,0 +1,59 @@
+
+// C++ program to verify the size of multidimensional 
+// arrays 
+#include <iostream> 
+using namespace std; 
+  
+int main() 
+{ 
+    // creating 2d and 3d array 
+    int arr1[2][4]; 
+    int arr2[2][4][8]; 
+  
+    // using sizeof() operator to get the size of the above 
+    // arrays 
+    cout << "Size of array arr1: " << sizeof(arr1) 
+         << " bytes" << endl; 
+    cout << "Size of array arr2: " << sizeof(arr2) 
+         << " bytes"; 
+  
+    return 0; 
+}
+
+
+/*
+
+// c++ program to illustrate the two dimensional array 
+#include <iostream> 
+using namespace std; 
+  
+int main() 
+{ 
+  
+    int count = 1; 
+    
+    // Declaring 2D array 
+    int array1[3][4]; 
+  
+    // Initialize 2D array using loop 
+    for (int i = 0; i < 3; i++) { 
+        for (int j = 0; j < 4; j++) { 
+            array1[i][j] = count; 
+            count++; 
+        } 
+    } 
+  
+    // Printing the element of 2D array 
+    for (int i = 0; i < 3; i++) { 
+        for (int j = 0; j < 4; j++) { 
+            cout << array1[i][j] << " "; 
+        } 
+        cout << endl; 
+    } 
+  
+    return 0; 
+}
+
+
+
+*/
