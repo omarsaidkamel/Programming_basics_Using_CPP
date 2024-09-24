@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+string s;int i,o;
+int main()
+{
+    cin>>s;
+    int y=s.size();
+    while(i<y){
+        if(s[i]=='W'&&s[i+1]=='U'&&s[i+2]=='B'){
+                i+=2;if(o==1)cout<<" ";o=0;
+        }
+        else {cout<<s[i];o=1;}
+        i++;
+    }
+    return 0;
+}
