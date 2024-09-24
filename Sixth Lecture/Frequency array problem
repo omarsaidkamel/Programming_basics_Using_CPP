@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int n,m,h,a[1000006];
+int main(){
+    cin>>n>>m; // O(N^2)
+    for(int i=0;i<n;i++) cin>>a[i];
+    for(int i=1;i<=m;i++){int c=0;
+       for(int j=0;j<n;j++){
+          if(a[j]==i)c++;
+       }
+      cout<<c<<"\n";
+    }
+    return 0;
+}
+
+/*
+#include <iostream>
+using namespace std;
+int n,a[1000006],m,h;
+int main()
+{
+    cin>>n>>m;
+    for(int i=0;i<n;i++){
+        cin>>h;a[h]++;
+    }  
+    //O(N)
+    for(int i=1;i<=m;i++) cout<<a[i]<<"\n";
+    return 0;
+}
+*/
