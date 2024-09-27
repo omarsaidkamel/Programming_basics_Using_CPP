@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int n,q,B[100002],A[26],l,r;
+int main(){
+    string s;cin>>s;n=s.size();
+    for(int i=0;i<26;i++){int q=0;
+    //abcd...z
+        char c = i+'a';
+        for(int j=0;j<n;j++){
+        //aaabbc
+            if(c==s[j])q++;
+        }
+       if(q!=0) cout<<c<<" : "<<q<<"\n";
+    }
+/*
+    aaabbcz  - 'a'
+    000112
+
+    0 1 2 3 4 5 6 7...26  index
+    3 2 1 0 0 0 0 0    1  value
+
+*/
+    for(int i=0;i<n;i++){
+        A[s[i]-'a']++;
+       // A[s[i]-'a'] = A[s[i]-'a'] + 1;
+    }
+    for(int i=0;i<26;i++){
+    char c = i+'a';
+        if(A[i]>0)cout<<c<<" : "<<A[i]<<"\n";
+    }
+}
