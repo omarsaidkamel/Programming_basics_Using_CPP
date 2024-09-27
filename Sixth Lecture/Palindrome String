@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int n,t,q,B[100002],A[26],l,r;
+int main(){
+string s;cin>>s;n=s.size();
+    bool q=1;
+/*
+    0123
+    abba
+     ji
+*/
+    for(int i=0,j=n-1;i<j;i++,j--){
+            if(s[i]!=s[j])q=0;
+    }
+    cout<<(q?"YES":"NO");
+
+}
